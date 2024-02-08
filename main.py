@@ -15,8 +15,6 @@ for _ in range(6):
     new_turtle.goto(x=-230, y=s)
     s += 50
 
-
-
 is_race_on = True
 while is_race_on:
     for turtle in turtle_list:
@@ -29,9 +27,5 @@ while is_race_on:
                 print(f"You've won! Winner turtle is {winner_color}")
             else:
                 print(f"Sorry you lost. Winner turtle is {winner_color}")
-
-
-
-
 
 screen.exitonclick()
